@@ -1,9 +1,16 @@
 # Distributed Flexible Job shop Scheduling Problem
 ### This project is in collaboration with : 
+----------------------------------------
+II3 IA 2023
+
 -Habiba Gaddacha
+
 -Syrine Bahri
+
 -Cyrine Fekih
+
 -Mahdi Njema
+-----------------------------------------
 
 # I - State of the art :
 
@@ -28,5 +35,5 @@ In DFJSP, we consider the following hypotheses and constraints :
 
 # II- Solution proposed :
 ## Specific solution using 2 machines :
-## General Solutions
+## General Solution
 ## Output :
