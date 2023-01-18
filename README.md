@@ -37,10 +37,13 @@ In DFJSP, we consider the following hypotheses and constraints :
 ## Specific solution using 2 machines :
 ### Output :
 ## General Solution :
-#### 4 classes :
+#### * 4 classes :
  1- Class Destributed : Generates initial solution + calculates the makespan + associates firstly each Job to one of the factories
+ 
  2- Class DFJSP : devide the operations/machines by 50% from the initial solution for the cross-over(in Genetic algorithm afterwards)
+ 
  3- Class ALL : Applying genetic algorithm to generate new populations for each factoris (epoch = 100) (using mutation & cross-over for operations & factories)
+ 
  4- Class main : generate the solution ( Gantt chart + makespan of each factory for each epoch (generation) and optimized makespan (best solution for each factory)
 
 ### Output :
