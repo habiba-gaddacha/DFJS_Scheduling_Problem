@@ -3,13 +3,13 @@
 ----------------------------------------
 II3 IA 2023
 
--Habiba Gaddacha
+- Habiba Gaddacha
 
--Syrine Bahri
+- Syrine Bahri
 
--Cyrine Fekih
+- Cyrine Fekih
 
--Mahdi Njema
+- Mahdi Njema
 -----------------------------------------
 
 # I - State of the art :
