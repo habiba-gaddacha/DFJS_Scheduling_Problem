@@ -63,7 +63,7 @@ In DFJSP, we consider the following hypotheses and constraints :
 
 # Sources :
 ----------
-### 1-  Solving Distributed and Flexible Job shop Scheduling Problem using a Chemical Reaction Optimization metaheuristic by Mr. Bilel Marzoukia, Ms. Olfa Belkahla Driss and Mr. Khaled Ghedira.
+### 1-  Solving Distributed and Flexible Job shop Scheduling Problem using a Chemical Reaction Optimization metaheuristic by Mr. Bilel Marzoukia, Mrs. Olfa Belkahla Driss and Mr. Khaled Ghedira.
 
 Link : https://www.academia.edu/37731969/Solving_Distributed_and_Flexible_Job_shop_Scheduling_Problem_using_a_Chemical_Reaction_Optimization_metaheuristic
 
