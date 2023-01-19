@@ -23,7 +23,7 @@ The Distributed and Flexible Job shop Scheduling Problem consists of a set of :
 - Each operation can be reused on different machine with different processing times(Pijrf). 
 
 The idea of the DFJSP is to associate or allocate to each factory a job while respecting the hypotheses and constraints and also determine the product scheduling
-in each plant in order to minimize the maximum completion time( makespan) among all factories. 
+in each plant in order to minimize the maximum completion time (makespan) among all factories. 
 
 In DFJSP, we consider the following hypotheses and constraints :
 
