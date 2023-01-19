@@ -36,6 +36,9 @@ In DFJSP, we consider the following hypotheses and constraints :
 # II- Solution proposed :
 ## Specific solution using 2 machines :
 ### Output :
+
+![téléchargement (2)](https://user-images.githubusercontent.com/77301851/213435788-8b050ae6-aacf-4fad-9382-8b155dcc5669.png)
+
 ## General Solution :
 #### * 4 classes :
  1- Class Destributed : Generates initial solution + calculates the makespan + associates firstly each Job to one of the factories
