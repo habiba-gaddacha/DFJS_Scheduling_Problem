@@ -35,6 +35,31 @@ In DFJSP, we consider the following hypotheses and constraints :
 
 # II- Solution proposed :
 ## Specific solution using 2 machines :
+
+In the first solution proposed in the notebook named "Distributed_Flexible_Job_Shop_First_Method.ipynb", we treated the Distributed Flexible Job Shop Scheduling Problem using genetic algorithms as a metaheuristic. 
+This solution is limited to the use of 2 factories with 2 machines.
+
+####  1- Method generate_chromosome : 
+ This method allows to generate a chromosome represented by a list in this form [Num_Factory, Nombre_unités_M1, Nombre_unités_M2, Num_Premiere_Machine]
+ With Num_Factory : Variable containing the number of the factory in which the Job is associated.
+ Number_units_M1 : Variable containing the number of units that must execute the job in the machine M1.
+ Number_units_M2 : Variable containing the number of units that must execute the job in the machine M2.
+ Num_Premiere_Machine: Variable containing the number of the machine with which the job must begin.
+####  2- Method generate_population : 
+ This method allows to generate a population of size n.
+####  3- Johnson method: 
+ This method allows the realization of the scheduling by a Johnson order. 
+ The input of this method will be a list of a single factory.
+ Example : [[Num_UnitM1,Num_UnitM2,1] [[Num_UnitM1,Num_UnitM2,1], [Num_UnitM1,Num_UnitM2,1], [Num_UnitM1,Num_UnitM2,2]] .
+ It will first generate 4 sequences (M1 only, M2 only, M1 then M2, M2 then M1) then order them according to their number of units.
+ The output of this method is a list containing the tuples in this form (job,[Num_UnitM1,Num_UnitM1]).
+####  4- Methode makespan : 
+ This method will return the Cmax in each factory.
+####  5- Fitness method: 
+ This method will return Cmax of all factories.
+####  6- Mutation method: 
+ The output of this method is a randomly generated population from another population.
+
 ### Output :
 
 ![téléchargement (2)](https://user-images.githubusercontent.com/77301851/213435788-8b050ae6-aacf-4fad-9382-8b155dcc5669.png)
